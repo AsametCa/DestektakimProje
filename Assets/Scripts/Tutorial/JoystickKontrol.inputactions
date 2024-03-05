@@ -1,0 +1,34 @@
+{
+    "name": "JoystickKontrol",
+    "maps": [
+        {
+            "name": "Ckurtaran",
+            "id": "7fe2c6ef-c7f5-4536-b766-56a718c19eff",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "9cde17be-47d5-4eb9-a90d-0001a2b38d39",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ba868268-767f-4ced-a016-cffd10a7eab3",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
